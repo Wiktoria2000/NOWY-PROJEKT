@@ -6,8 +6,7 @@ Created on Tue May 25 17:13:17 2021
 """
 from math import atan, tan, cos, sin, sqrt, pi
 import pandas as pd
-import numpy as np 
-
+import numpy as np
 dane = pd.read_excel('DANE.xlsx')
 #dane = pd.read_excel('C:/Users/Wiktoria/Desktop/SEMESTR 4/INFOMATYKA 2/ĆWICZENIA/PROJEKT/DANE.xlsx')
 
@@ -78,6 +77,4 @@ if AAB<0:
     AAB=AAB+pi;
     ABA=ABA+pi;
     
-print('DLUGOSC LOTU MIĘDZY LOTNISKAMI:',round(s,3),'m')
-
-#BBBBBBBBBBBBBBBBBBBBBBBBB
+print('DLUGOSC LOTU MIĘDZY LOTNISKAMI:',round(s,3),'m#BBBBBBBBBBBBBBBBBBBBBBBBB
